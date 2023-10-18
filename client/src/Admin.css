@@ -1,0 +1,57 @@
+.admin-panel {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  .user-list h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-confirmation {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-confirmation p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-confirmation button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .delete-confirmation button:last-child {
+    background-color: #3498db;
+  }
+  

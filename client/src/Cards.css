@@ -1,0 +1,96 @@
+
+.main1{
+  background-color: #171916;
+  margin: 0;
+}
+.movie-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2em;
+    gap: 1em;
+  }
+  
+  .div2 {
+    flex-basis: 20%;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px;
+    padding: 10px;
+    border: 0.5px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .movie-cards div p {
+    margin-top: 0.75em;
+    color: #ddd;
+  }
+  
+  .movie-cards div a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .movie-cards div a:hover {
+    background-color: #007BFF;
+    color: #FFFFFF;
+  }
+  
+  .movie-cards div img {
+    width: 300px;
+    height: auto;
+  }
+
+  .list-heading {
+    color: #ddd;
+    text-align: center;
+    padding-top: 2em;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .movie-cards div p.showname {
+    margin-top: 1em; 
+    font-weight: bold; /* Make text bold */
+    font-size: 1.5em; /* Increase font size */
+    font-family: "Open Sans", sans-serif; /* Use Open Sans font */
+  }
+  
+  .det-button {
+    border: none;
+    background-color: grey;
+    color: #fff;
+    font-size: 0.9em;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 5px; /* Add space between buttons */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .det-button:hover {
+    background-color: black; /* Yellow background on hover */
+  }
+
+  .movie-cards div .showDeets {
+    text-align: left; /* Justify text */
+    font-size: 0.9em; /* Decrease font size */
+    margin: 0 10px; /* Add left and right margin */
+    padding: 10px;
+  }
+  
+  .movie-cards div .showRating {
+    font-size: 0.9em; /* Decrease font size */
+    margin: 0 10px; /* Add left and right margin */
+    padding: 10px;
+  }
+  
+  .buttons{
+    display: flex;
+  }

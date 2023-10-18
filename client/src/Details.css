@@ -1,0 +1,157 @@
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+.detailsbox {
+    flex: 70%;
+    flex-basis: 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imagesection{
+    margin:2em;
+    display: flex;
+}
+
+.imagesection p{
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.detailsbox img {
+    height:300px;
+
+    margin: 1em;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.detailsbox h1 {
+    margin: 1em;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.detailsbox p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.detailsbox ul {
+    list-style: none;
+    padding: 0;
+    background-color: white;
+}
+
+.detailsbox ul li {
+    margin-bottom: 5px;
+}
+
+.detailsbox h2 {
+    margin: 20px 0 10px;
+    font-size: 1.8rem;
+}
+
+.detailsbox h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.video-container {
+    flex: 30%;
+    margin: 1em;
+    padding-left: 2em;
+    padding: 1em;
+    border-left: 0.5px solid #E6AF2E;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.video-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.frame {
+    margin: 1em;
+}
+
+
+.infoDivs {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info {
+    display: flex;
+    
+  }
+  
+  .threeDivs {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: row;
+    background-color: #f5f5f5;
+  }
+  
+  .genres, .deets, .Rating {
+    text-align: center;
+  }
+  
+  .genres ul, .deets, .Rating {
+    list-style: none;
+  }
+  
+  .genres h2, .deets h2, .Rating h2 {
+    font-weight: bold;
+  }
+  
+
+  .seasons-container {
+    text-align: center;
+  }
+  
+  .seasons-container ul li p{
+    margin:20px;
+
+  }
+  .seasons-heading {
+    margin:1em;
+    text-align: center;
+  }
+  
+  .seasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .season-card {
+    flex: 0 0 calc(33.33% - 20px);
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .season-title {
+    font-weight: bold;
+  }
+  
+  .season-poster {
+    max-height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  

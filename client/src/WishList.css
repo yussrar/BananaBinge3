@@ -1,0 +1,94 @@
+/* CSS for the wishlist container */
+.wishlist-container {
+    margin-top: 1em;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* CSS for horizontal cards */
+  .wishlist-card {
+    margin-top: 1em;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* CSS for left side image */
+  .wishimg {
+    width: 25%;
+    margin-top:10px;
+  }
+  
+  .wishimg img {
+    height:200px
+  }
+  
+  /* CSS for right side content */
+  .wishdetail {
+    width: 75%;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    gap:20px;
+  }
+  
+  .name-overview {
+    width: 70%;
+    border-right: 0.5px solid black;
+    padding-right: 1em;
+  }
+
+  .wishname{
+    font-size: 1.5em;
+  }
+  
+  /* Additional info */
+  .genre-rating-network-link {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .genrediv {
+    display:flex;
+    gap: 8px;
+  }
+  
+  .genrelist {
+    list-style: none;
+    display:flex;
+    gap: 8px;
+    padding-right:1em;
+    padding-top:5px;
+    
+  }
+  
+  .genrelist li {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+  }
+  
+  .additional-info p {
+    margin: 5px 0;
+  }
+  
+  /* Button style */
+  .wishlist-card button {
+    align-self: center;
+    margin-top: auto; /* Move the button to the bottom of the card */
+    background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .wishlist-card button:hover {
+    background-color: black;
+  }
+  
