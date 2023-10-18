@@ -43,7 +43,7 @@ const Header = () => {
               onClick={handleMenuClick}
               style={{ color: 'white' }}
             >
-              Hello, {user.name}
+              {user.name}
             </Button>
             <Menu
               id="user-menu"
@@ -56,7 +56,7 @@ const Header = () => {
                 My Profile
               </MenuItem>
               <MenuItem component={Link} to="/WishList" onClick={handleMenuClose}>
-                Wish List
+                WatchList
               </MenuItem>
               <MenuItem component={Link} to="/Logout" onClick={handleMenuClose}>
                 Logout

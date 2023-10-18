@@ -130,7 +130,7 @@ function Lists() {
                   className="det-button"
                   onClick={() => handleAddToWishlist(tvShow.id, user ? user._id : null)}
                 >
-                  {isAlreadyAdded(tvShow.id) ? 'Added to Your WatchList' : 'Add to WishList'}
+                  {isAlreadyAdded(tvShow.id) ? 'Added to Your WatchList' : 'Add to WatchList'}
                 </button>
               </div>
             </div>

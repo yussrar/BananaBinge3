@@ -94,9 +94,9 @@ function UserWishList() {
 
   return (
     <div className="wishlist-container">
-      <h1>My Wish List</h1>
+      <h1>My WatchList</h1>
       {loading ? (
-        <p>Loading wish list data...</p>
+        <p>Loading...</p>
       ) : (
         <div className="WishlistMain">
           {detailedWishlist.map((item) => (
