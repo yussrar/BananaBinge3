@@ -230,7 +230,7 @@ app.post('/api/showDetails', async (req, res) => {
     const movieDBData = await movieDBResponse.json();
 
     //Send a request to YouTube using the tvShowName
-    const apiKey2 = 'AIzaSyBbT9Z5Sjj4HykHFjYEWqY8rE-JjlOurmU'; // Replace with your YouTube API key
+    const apiKey2 = 'AIzaSyC-KimscI4JBw9dAyJu2OullWrxjsQoDXQ'; // Replace with your YouTube API key
     const showTitle = encodeURIComponent(tvShowName);
     const youtubeApiUrl = `https://www.googleapis.com/youtube/v3/search?key=${apiKey2}&type=video&part=snippet&q=${showTitle} trailer&maxResults=3`;
     const youtubeResponse = await fetch(youtubeApiUrl, options);
